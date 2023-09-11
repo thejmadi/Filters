@@ -1,7 +1,9 @@
 # Filters
-4 Files.
+5 Files.
 
 Each contain a self-made RK4 integrator.
+
+projectile_Github_version.py : Solves projectile problem of linear dynamics and nonlinear measurements. Calculates true and nominal trajectory of projectile using self-made RK4. Resolves for initial conditions                                     using self-made Nonlinear Least Squares (NLS). Estimates trajectory given NLS outputs with self-made Extended Kalman Filter.
 
 EKF_Github_version.py : Uses RK4 and self-made Extended Kalman Filter to solve a system of nonlinear dynamics and measurements.
 
